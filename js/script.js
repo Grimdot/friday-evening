@@ -41,3 +41,25 @@
 // }
 
 // console.log(magic(arr));
+
+// -----------------------------3 task------------------------------
+
+// function game() {
+//   const max = 10;
+//   const min = 0;
+//   let yourNumber = null;
+//   const bingo = Math.round(Math.random() * max - min + 1 + min);
+
+//   do {
+//     yourNumber = Number(prompt("Input your number"));
+//     if (yourNumber === bingo) {
+//       return console.log("You Won!!!");
+//     } else if (yourNumber > bingo) {
+//       console.log("Bingo is smaller then your number");
+//     } else {
+//       console.log("Bingo is bigger then your number");
+//     }
+//   } while (yourNumber !== bingo);
+// }
+
+// game();
