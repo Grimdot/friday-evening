@@ -65,7 +65,7 @@
 // game();
 
 
-// ------------------------------
+// -------------taskAuto-----------------
 // const taxiPark  = {
 //     cars: [
 //         { brand: 'Mazda', mileage: 17 },
@@ -126,3 +126,27 @@
 // console.log(taxiPark.getCars());
 // console.log(taxiPark.updateCarMileage('BMW', 36));
 // console.log(taxiPark.getCars());
+=======
+// -----------------------------3 task fixed------------------------------
+
+// function game() {
+//   const max = 10;
+//   const min = 1;
+//   let yourNumber;
+//   const bingo = Math.round(Math.random() * max - min + 1 + min);
+
+//   do {
+//     yourNumber = Number(prompt(`Input your number ${min} - ${max}!`));
+//     if (yourNumber === bingo) {
+//       alert(`You Won!!! Bingo is ${yourNumber}.`);
+//     } else if (yourNumber > bingo) {
+//       console.log(`Bingo is smaller then your number < ${yourNumber}`);
+//     } else if (yourNumber < bingo) {
+//       console.log(`Bingo is bigger then your number > ${yourNumber}`);
+//     } else {
+//       alert(`Bingo is a number ${min} - ${max}!`);
+//     }
+//   } while (yourNumber !== bingo);
+// }
+
+// game();
