@@ -64,7 +64,6 @@
 
 // game();
 
-
 // -------------taskAuto-----------------
 
 // const taxiPark  = {
@@ -128,50 +127,49 @@
 // console.log(taxiPark.updateCarMileage('BMW', 36));
 // console.log(taxiPark.getCars());
 
-
 // ------------------------taskDATA--------------------------------------
-const inputData = [
-  { id: 1, name: 'Item 1' },
-  { id: 2, name: 'Item 2' },
-  { id: 4, name: 'Item 4' },
-  { id: 7, name: 'Item 7' },
-];
+// const inputData = [
+//   { id: 1, name: 'Item 1' },
+//   { id: 2, name: 'Item 2' },
+//   { id: 4, name: 'Item 4' },
+//   { id: 7, name: 'Item 7' },
+// ];
 
-function normalizeData(arr) {
-  const resultData = {};
-  const entitiesData = {};
-  const arrId = [];
-  const arr2 = [];
+// function normalizeData(arr) {
+//   const resultData = {};
+//   const entitiesData = {};
+//   const arrId = [];
+//   const arr2 = [];
 
-  arr.forEach((element) => {
-    let elId = element.id;
-    arrId.push(elId);
-    entitiesData[elId] = element;
+//   arr.forEach((element) => {
+//     let elId = element.id;
+//     arrId.push(elId);
+//     entitiesData[elId] = element;
 
-    //
-    // console.log(arrId);
-    // console.table(entitiesData);
-  });
+//
+// console.log(arrId);
+// console.table(entitiesData);
+// });
 
-  // resultData.entities = entitiesData;
-  // resultData.byId = arrId;
+// resultData.entities = entitiesData;
+// resultData.byId = arrId;
 
-  for (const { id } of arr) {
-    // arr2.push(id);
-  }
+// for (const { id } of arr) {
+// arr2.push(id);
+// }
 
-  let q = inputData.reduce((acc, elem) => {
-    acc[elem.id] = elem;
-    return acc;
-  }, {});
+// let q = inputData.reduce((acc, elem) => {
+//   acc[elem.id] = elem;
+//   return acc;
+// }, {});
 
-  // let q = inputData.reduce((acc, elem) => (acc[elem.id] = elem), {});
+// let q = inputData.reduce((acc, elem) => (acc[elem.id] = elem), {});
 
-  return console.log(q);
-  // return q;
-  // return resultData;
-  // return arr2;
-}
+// return console.log(q);
+// return q;
+// return resultData;
+// return arr2;
+// }
 
 // expect(normalize(inputData)).toEqual({
 //       entities: {
@@ -186,9 +184,9 @@ function normalizeData(arr) {
 // console.log('hello');
 // console.log(arrId);
 
-console.log(normalizeData(inputData));
-=======
-=======
+// console.log(normalizeData(inputData));
+// =======
+// =======
 // -----------------------------3 task fixed------------------------------
 
 // function game() {
@@ -212,4 +210,3 @@ console.log(normalizeData(inputData));
 // }
 
 // game();
-
